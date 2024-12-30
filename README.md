@@ -1,7 +1,6 @@
-# Tic-Tac-toe
+# Tic Tac Toe Game
 
 ## Description: 
-# Tic Tac Toe Game
 
 A classic two-player Tic Tac Toe game built with JavaScript, HTML, and CSS. This interactive web application allows players to compete against each other in the timeless game of X's and O's.
 
