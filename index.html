@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <h1 id="game-name">Tic Tac Toe</h1>
+    <div id="start-game">
+        <h2>Play</h2>
+        <button id="play-button"><img src="images/play.png" alt="play">
+        </button>
+    </div>
+    <dialog id="add-players-dialog">
+        <form id="add-players-form" method="dialog">
+            <button id="close-add-players-dialog">x</button>
+            <div id="add-players-form-div">
+                <label for="player1-name">First Player</label>
+                <input type="text" id="player1-name" name="player1" autofocus required>
+                <label for="player2-name">Second Player</label>
+                <input type="text" id="player2-name" name="player2" required>
+            </div>
+            <button type="submit" id="add-players">Play</button>
+        </form>
+    </dialog>
+    <dialog id="result">
+    <h1 id="result-content"></h1>
+        <button id="continue">Continue</button>
+        <button id="new-players">New Players</button>
+    </dialog>
+</body>
+</html>
